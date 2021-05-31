@@ -8,7 +8,6 @@ import {
 } from './lib/constants'
 import Timer from './lib/timer'
 import RealtimeSubscription from './RealtimeSubscription'
-import { w3cwebsocket as WebSocket } from 'websocket'
 import Serializer from './lib/serializer'
 
 type Options = {
